@@ -51,6 +51,30 @@ var label2 = Titanium.UI.createLabel({
 
 win2.add(label2);
 
+var send = Titanium.UI.createButton({
+    title: 'Send',
+    style: Titanium.UI.iPhone.SystemButtonStyle.DONE,
+});
+ 
+var camera = Titanium.UI.createButton({
+    systemButton: Titanium.UI.iPhone.SystemButton.CAMERA,
+});
+ 
+var cancel = Titanium.UI.createButton({
+    systemButton: Titanium.UI.iPhone.SystemButton.CANCEL
+});
+ 
+flexSpace = Titanium.UI.createButton({
+    systemButton:Titanium.UI.iPhone.SystemButton.FLEXIBLE_SPACE
+});
+ 
+var toolbar = Titanium.UI.iOS.createToolbar({
+    items:[send, flexSpace, camera, flexSpace, cancel],
+    bottom:0,
+    borderTop:true,
+    borderBottom:false
+}); 
+win2.add(toolbar);
 
 
 //
