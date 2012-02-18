@@ -43,7 +43,7 @@ var tab2 = Titanium.UI.createTab({
 
 var label2 = Titanium.UI.createLabel({
 	color:'#999',
-	text:'I am Window 2',
+	text:'Da schau her, ich bin Fenster 2',
 	font:{fontSize:20,fontFamily:'Helvetica Neue'},
 	textAlign:'center',
 	width:'auto'
