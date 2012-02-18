@@ -14,7 +14,7 @@ var win1 = Titanium.UI.createWindow({
 });
 var tab1 = Titanium.UI.createTab({  
     icon:'KS_nav_views.png',
-    title:'Tab 1',
+    title:'Welcome',
     window:win1
 });
 
@@ -32,7 +32,7 @@ win1.add(label1);
 // create controls tab and root window
 //
 var win2 = Titanium.UI.createWindow({  
-    title:'Tab 2',
+    title:'Surprise',
     backgroundColor:'#fff'
 });
 var tab2 = Titanium.UI.createTab({  
